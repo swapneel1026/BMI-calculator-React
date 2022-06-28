@@ -5,7 +5,7 @@ const Calculator = () => {
   const [age, setAge] = useState(0);
   const [weight, Setweight] = useState(0);
   const [gender, setGender] = useState("Select-Gender");
-  const [height, Setheight] = useState(Number("0") * 0.0254);
+  const [height, Setheight] = useState(0);
   const [bmiStatus, setbmiStatus] = useState("Waiting...");
   const [bmi, setBmi] = useState(0);
 
